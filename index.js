@@ -18,6 +18,6 @@ const reduce = (array, reducer, initialValue = array[0]) => {
         let e = array[i]
         value = reducer(value, e)
     }
-  } 
+  }
   return value;
 };
